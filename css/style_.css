@@ -1,0 +1,311 @@
+@font-face {
+    font-family: 'Metropolis';
+    src: url('../fonts/Metropolis-Medium.eot');
+    src: url('../fonts/Metropolis-Medium.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Metropolis-Medium.woff2') format('woff2'),
+    url('../fonts/Metropolis-Medium.woff') format('woff'),
+    url('../fonts/Metropolis-Medium.ttf') format('truetype'),
+    url('../fonts/Metropolis-Medium.svg#Metropolis-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+}
+*{
+    padding: 0;
+    margin: 0;
+    font-size: inherit;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+header{
+    padding-top: 24px;
+    padding-bottom: 12px;
+    background-color: rgba(0, 0, 0, 0.65);
+    position: absolute;
+    width: 100%;
+    z-index: 3;
+    position: fixed;
+    top: 0;
+}
+.container{
+    max-width: 1170px;
+    margin: auto;
+    }
+.container:after,header form:after, header nav ul:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+header .logo{
+    float: left;
+    margin-bottom: 20px;
+}
+header form{
+    float: right;
+    width: 208px;
+    line-height: 42px;
+    border-radius: 3px;
+    background-color: #ebebeb;
+    margin-top: 9px;
+
+}
+
+header form input{
+    width: 65%;
+    background-color: transparent;
+    border: none;
+    /*line-height: 42px;*/
+    float: left;
+    color: #959595;
+    font-size: 15px;
+    padding-left: 16px;
+    padding-top: 13px;
+    outline: none;
+    text-transform: uppercase;
+    }
+header form button{
+    float: right;
+    width: 26%;
+    line-height: 42px;
+    text-align: center;
+    color: red;
+    border: none;
+    background-color: transparent;
+    margin: 0;
+   }
+
+
+header .btn{
+    float: right;
+    min-width: 170px;
+    border-radius: 3px;
+    text-transform: uppercase;
+    text-decoration: none;
+    line-height: 42px;
+    background-color: #252525 ;
+    text-align: center;
+    color: white;
+    margin-left: 24px;
+    font-size: 15px;
+    margin-top: 9px;
+    font-family: 'Metropolis';
+}
+header .btn.silver {
+    background-color: #464646;
+}
+header .btn.red{
+    background-color: #fa090a;
+}
+
+header .btn i{
+    margin-right: 7px;
+}
+.border_top{
+    border-top:  solid 2px #464646;
+    padding-top:  17px;
+}
+header .social{
+    float: right;
+    margin-left: 16px;
+    line-height: 35px;
+    height: 30px;
+    width: 30px;
+    text-align: center;
+    background-color: #fa090a;
+}
+header .social i{
+    color: black;
+    font-size: 20px;}
+
+header nav{
+    float: left;
+    line-height: 30px;
+}
+header nav ul{
+    list-style: none;
+    line-height: 30px;
+}
+header nav ul li{
+    float: left;
+    margin-right: 18px;
+    line-height: 30px;
+}
+
+
+header nav ul li a{
+    text-decoration: none ;
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 25px;
+    padding: 0 6px;
+    line-height: 30px;
+    position: relative;
+}
+header nav ul li a:after{
+    content: "";
+    display: inline-block;
+    width: 0;
+    height: 4px;
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    background-color: #ff0000;
+    transition: 0.3s;
+}
+header nav ul li:first-of-type a{
+    padding-left: 0;
+}
+header nav ul li:hover a:after{
+    width: 100%;
+}
+section{
+    max-width: 100% ;
+    margin: auto;
+    position: relative;
+
+}
+section h1:after{
+    display: block;
+    content:"" ;
+    content: "";
+    max-width: 1170px;
+    height: 3px;
+    background-color: red;
+    margin: auto;
+}
+section h1{
+    color: #f7f7f7;
+    text-transform: uppercase;
+    font-size: 50px;
+    font-family: 'Bebas Neue', cursive;
+    font-weight: 300;
+}
+
+footer {
+    background-color: #010006 ;
+    padding-top: 75px;
+    padding-bottom: 60px;
+}
+
+
+footer form{
+    width: 902px;
+    /*text-align: center;*/
+    margin: auto;
+    margin-bottom: 50px;
+
+}
+footer form label{
+    font-size: 18.3px;
+    font-family: 'Metropolis';
+    text-transform: uppercase;
+    color: white;
+    padding-bottom: 35px;
+    line-height: 28px;
+    text-align: center;
+    display: inline-block;
+
+}
+footer form input{
+    display: block;
+    height: 45px;
+    width: 390px;
+    text-transform: uppercase;
+    font-size: 17px;
+    background-color: white;
+    color: #6e7279;
+    padding-left: 30px;
+    padding-top: 10px;
+    font-family: 'Metropolis';
+    border: none;
+    float: left;
+    border-radius: 3px;
+    margin-left: 85px;
+    }
+
+
+footer form button{
+    /*display: block;*/
+    height: 50px;
+    width: 310px;
+    text-align: center;
+    background-color: #ff0000;
+    color: white;
+    text-transform: uppercase;
+    font-size: 17px;
+    font-family: 'Metropolis';
+    border: none;
+    /*float: right;*/
+    clear: both;
+    border-radius: 3px;
+    margin-left: 30px;
+}
+.clearfix{
+    clear: both;}
+
+
+
+.bg_grey_footer{
+    background-color: #252525;
+    height: 245px;
+    width: 100%;
+    border-bottom: solid 1px #474747;
+    border-top: solid 1px #474747;
+}
+.container_f{
+    margin: auto;
+    padding: 60px 30px;
+}
+.fer{
+    width: 255px;
+    margin: auto;
+    float: left;
+    margin-top: -13px;
+    }
+
+.fer a img {
+    width: 100%;
+    height:auto;
+
+    }
+.fer a.social{
+    float: left;
+    margin-left: 23px;
+    line-height: 35px;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    background-color: #fa090a;
+    font-size: 26px;
+    margin-top: 35px;
+    color: black;
+    padding-top: 3px;
+}
+.clearfix{
+    clear: both;}
+.container_f  nav{
+    float: right;
+    line-height: 30px;
+}
+footer nav ul {
+    list-style: none;
+
+
+}
+.bg_grey_footer nav ul li{
+    margin-right: 18px;
+    line-height: 35px;
+    text-decoration: none ;
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Metropolis';
+    font-size: 13px;
+}
+.footer_menu_column{
+    float: left;
+    width: 200px;
+}
+
