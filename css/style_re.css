@@ -1,0 +1,188 @@
+@font-face {
+    font-family: 'Myriad Pro';
+    src: url('../fonts/MyriadPro-Bold.eot');
+    src: url('../fonts/MyriadPro-Bold.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/MyriadPro-Bold.woff2') format('woff2'),
+    url('../fonts/MyriadPro-Bold.woff') format('woff'),
+    url('../fonts/MyriadPro-Bold.ttf') format('truetype'),
+    url('../fonts/MyriadPro-Bold.svg#MyriadPro-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+*{
+    padding: 0;
+    margin: 0;
+    font-size: inherit;
+    box-sizing: border-box;
+}
+
+h1{
+    text-transform: uppercase;
+    color: black;
+    margin-bottom: 30px;
+    margin-left: 175px;
+    font-family: 'Myriad Pro';
+    font-size: 30px;
+}
+p{
+    line-height: 1.2;
+}
+.row {
+    width: 100%;
+    border-bottom: white solid 3px;
+}
+.black{
+    background-color: black;
+}
+.grey{
+    background-color: darkgray;
+}
+.cotanier{
+    display: flex;
+    width: 895px;
+    margin: auto;
+
+}
+.align-center{
+    align-items: center;
+}
+.clock_main{
+    color: white;
+    font-size: 48px;
+    font-family: 'Myriad Pro';
+    padding: 25px 0;
+    line-height: 1;
+    margin-right: 45px;
+
+ }
+.clock_main_description{
+    color: white;
+    font-size: 18px;
+    font-family: 'Oswald', sans-serif;
+    padding: 25px 0;
+    text-transform: uppercase;
+
+}
+
+.img_big{height: 211px;
+    flex-basis: 211px;
+    background-color: black;
+    margin: 25px 15px 25px 0;
+   }
+.clock_medium{
+    color: black;
+    font-size: 24px;
+    font-family: 'Myriad Pro';
+    margin-right: 35px;
+    margin-top: 60px;
+
+}
+.title_medium{
+    font-size:24px;
+    font-family: 'Oswald', sans-serif;
+    color: black;
+    margin-bottom: 15px;
+
+}
+.description_medium{
+    font-size:18px;
+    font-family: 'Oswald', sans-serif;
+    color: black;
+}
+.theme_medium{
+    font-size:18px;
+    font-family: 'Oswald', sans-serif;
+    color: black;
+
+}
+.text_block_medium{
+    margin-top: 55px;
+}
+.img_smoll{
+    height: 120px;
+    width: 120px;
+    background-color: black;
+}
+.speaker-list{
+    flex-wrap: wrap;
+    justify-content: space-between;
+    }
+.speaker-block{
+    width: 195px;
+    position: relative;
+    margin-bottom: 50px;
+}
+.speaker-block:before{
+    content: "";
+    position: absolute;
+    display: block;
+    background-color: black;
+    width: 100%;
+    height: 2px;
+    top: 59px;
+    right: 100%;
+    z-index: -1;
+
+}
+.title_speaker{
+    font-size:24px;
+    font-family: 'Oswald', sans-serif;
+    color: black;
+    margin:25px 0 15px ;
+}
+.description_speaker{
+    font-size:18px;
+    font-family: 'Oswald', sans-serif;
+    color: black;
+}
+.address_speaker{
+    font-size:18px;
+    font-family: 'Oswald', sans-serif;
+    color: black;
+}
+.theme_speaker{
+    font-size:18px;
+    font-family: 'Oswald', sans-serif;
+    color: black;
+}
+.speaker-clock{
+    width: 160px;
+    padding: 45px 0;
+
+}
+.speaker-clock span{
+    font-size: 24px;
+    font-family: 'Myriad Pro';
+    color: black;
+    padding-right: 20px;
+    background-color: white;
+
+}
+
+.moderator{
+    width: 195px;
+    margin: 35px 0 30px;
+}
+.moderator-title{
+    font-size: 24px;
+    font-family: 'Myriad Pro';
+    text-transform: uppercase;
+
+}
+.moderator-discripchion{
+    font-size: 16px;
+    font-family: 'Oswald', sans-serif;
+}
+.moderator-name{
+    font-size: 16px;
+    font-family: 'Oswald', sans-serif;
+}
+img {
+    width: 100%;
+    height: 211px;
+    flex-basis: 211px;
+}
+.row_footer{
+    margin-top: 100px;
+}
+/*font-family: 'Oswald', sans-serif;*/
