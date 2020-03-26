@@ -63,7 +63,6 @@ p{
     text-transform: uppercase;
 
 }
-
 .img_big{height: 211px;
     flex-basis: 211px;
     background-color: black;
@@ -93,7 +92,6 @@ p{
     font-size:18px;
     font-family: 'Oswald', sans-serif;
     color: black;
-
 }
 .text_block_medium{
     margin-top: 55px;
